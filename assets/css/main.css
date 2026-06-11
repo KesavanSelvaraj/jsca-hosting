@@ -3084,8 +3084,8 @@ button:disabled,
   }
 }
 
-/* Fancy menu item styles */
-.links a.fancy {
+/* Fancy menu item styles applied to all sidebar menu links */
+.links a {
   display: inline-block;
   padding: 0.5em 1em;
   background: linear-gradient(135deg,#c59d4b,#7a5c2a);
@@ -3096,14 +3096,14 @@ button:disabled,
   transition: transform 180ms ease, box-shadow 180ms ease;
   font-weight: 600;
 }
-.links a.fancy:hover,
-.links a.fancy:focus{
+.links a:hover,
+.links a:focus{
   transform: translateY(-3px);
   box-shadow: 0 10px 26px rgba(0,0,0,0.2);
 }
 
 @media screen and (max-width: 480px) {
-  .links a.fancy { width: 100%; display:block; text-align:center; }
+  .links a { width: 100%; display:block; text-align:center; }
 }
 
 /* Wrapper */
